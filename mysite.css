@@ -40,13 +40,13 @@ ul{
     width:  100%; /* Ширина таблицы */
     border-spacing: 0; /* Расстояние между ячейками */
 	color: white;
+	padding:1%;
    }
  .footertable td {
     width: 50%;
-	height: 30px;
    }
-.rightcol { /* Правая ячейка */ 
-    text-align: right; /* Выравнивание по правому краю */
+.rightcol {  
+    text-align: right; 
 	font-style: italic;
    }
 
