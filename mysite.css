@@ -78,12 +78,12 @@ ul{
 }
 .main {
 	background-color: #DCDCDC;
-	width: 80%;
+	width: 60%;
 	height: auto;
 	padding: 2%;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	margin-left: auto;
+	margin-left: 10%;
 	margin-right: auto;
 	font-size: 18px;
 	position: relative;
