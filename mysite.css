@@ -55,7 +55,7 @@ h4{
 	left: 10px;
 }
 .header{
-	font-family: Computer Modern;
+	font-family: courier;
 	background-color: #696969;
 	height: 110px;
 	text-align: center;
@@ -70,6 +70,7 @@ h4{
 }
 .hh {
 	font-size: 35px;
+	font-weight: bold;
 }
 .headtable{
 	border-collapse: separate;
