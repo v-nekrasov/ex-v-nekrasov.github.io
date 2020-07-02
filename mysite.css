@@ -1,0 +1,136 @@
+body{
+	 background-image: url("background.png");
+}
+ul{
+	font-size: 18px;
+}
+h4{
+	color: white;
+	margin-left: 1040px;
+	margin-top: 13px;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+} 
+.a1:hover{
+	color: black;
+}
+.a2{
+	color: green;
+}
+.a2:hover{
+	color: red;
+}
+.link {
+     display: block; 
+     height: 100%;
+	 padding: 11px;
+    }
+.imgcl1{
+	margin-left: 200px;
+	margin-top: 10px;
+}
+.imgcl2{
+	margin-left: 400px;
+	margin-top: 20px;
+}
+.imgcl3{
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.imgcl4{
+	margin-left: 600px;
+	margin-top: -1000px;
+	height: -10%;
+}
+.imgcl5{
+	margin-left: 600px;
+	margin-top: -800px;
+	height: -10%;
+}
+.imgcl6{
+	position: fixed;
+	bottom: -8px;
+	left: 10px;
+}
+.header{
+	font-family: courier;
+	background-color: #696969;
+	height: 110px;
+	text-align: center;
+	padding-top: 30px; 
+	padding-bottom: 30px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	border-bottom: 2px solid white;
+}
+.hh {
+	font-size: 35px;
+}
+.headtable{
+	border-collapse: separate;
+	border-spacing: 7px;
+	margin-left: 40px;
+	margin-top: 30px;
+	border: none;
+}
+.mtable{
+	border-collapse: collapse;
+	border: solid black;
+}
+.mtr{
+	border-collapse: collapse;
+	border: solid black;
+}
+.mtd{
+	border-collapse: collapse;
+	border: solid black;
+	padding: 10px;
+}
+.hhd {
+	color: white;
+	border-collapse: separate;
+	border: 1px solid white;
+	width:170px;
+	height: 40px;
+	text-align: center;
+	padding: 0;
+	border-radius: 10px;
+}
+.hhd:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	border-color: #000000;
+}
+.main {
+	background-color: #DCDCDC;
+	float: right;
+	width: 1010px;
+	height: auto;
+	padding: 20px;
+	margin: 180px 150px 60px 5px;
+	font-size: 18px;
+	position: absolute;
+	left: 140px;
+}
+.footer{
+	font-family: sans-serif;
+	background-color: #696969;
+	height: 45px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-top: 2px solid white;
+}
+.pros{
+	border-left: solid green;
+}
+.cons{
+	border-left: solid red;
+}
