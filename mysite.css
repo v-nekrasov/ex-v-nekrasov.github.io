@@ -6,8 +6,7 @@ ul{
 }
 h4{
 	color: white;
-	margin-left: 1040px;
-	margin-top: 13px;
+	text-align: right;
 }
 .a1{
     text-decoration: none;
@@ -69,8 +68,7 @@ h4{
 	border-bottom: 2px solid white;
 }
 .hh {
-	font-size: 35px;
-	font-weight: bold;
+	font-size: 40px;
 }
 .headtable{
 	border-collapse: separate;
@@ -119,14 +117,14 @@ h4{
 	left: 140px;
 }
 .footer{
-	font-family: sans-serif;
+	font-family: courier;
 	background-color: #696969;
 	height: 45px;
 	width: 100%;
-	position: fixed;
 	left: 0;
 	right: 0;
 	bottom: 0;
+	position: fixed;
 	border-top: 2px solid white;
 }
 .pros{
