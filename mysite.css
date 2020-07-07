@@ -7,6 +7,9 @@ ul{
 .a1{
     text-decoration: none;
     color: white;
+	display: block; 
+    height: 100%;
+	padding: 11px;
 } 
 .a1:hover{
 	color: black;
@@ -16,11 +19,6 @@ ul{
 }
 .a2:hover{
 	color: red;
-}
-.link {
-     display: block; 
-     height: 100%;
-	 padding: 11px;
 }
 .ft {
 	color: white;
