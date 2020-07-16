@@ -5,11 +5,8 @@ ul{
 	font-size: 18px;
 }
 .a1{
-    text-decoration: none;
-    color: white;
-	display: block; 
-    height: 100%;
-	padding: 11px;
+	color: white;
+	text-decoration: none;
 } 
 .a1:hover{
 	color: black;
@@ -20,11 +17,14 @@ ul{
 .a2:hover{
 	color: red;
 }
+.a3{
+	color: black;
+}
+.a3:hover{
+	color: blue;
+}
 .ft {
 	color: white;
-}
-.hh {
-	font-size: 40px;
 }
 .headtable{
 	border-collapse: separate;
@@ -32,7 +32,6 @@ ul{
 	margin-top: 1.5%;
 	margin-bottom:-2%;
 	border: none;
-	font-size: 20px;
 }
 .footertable  {
     width:  100%; /* Ширина таблицы */
@@ -49,12 +48,12 @@ ul{
    }
 
 .hhd {
-	color: white;
 	border: 1px solid white;
-	width:200px;
+	width:150px;
 	height: 40px;
 	border-radius: 10px;
 	vertical-align: middle;
+	padding: 1%;
 }
 .hhd:hover{
 	background-color: #FFFFFF;
@@ -62,12 +61,17 @@ ul{
 	border-color: #000000;
 }
 .header{
+	color: white;
 	font-family: Georgia;
+	font-size: 20px;
 	background-color: #696969;
 	width: auto;
 	height: auto;
 	text-align: center;
-	padding: 3%;
+	padding-top:1%;
+	padding-bottom:3%;
+	padding-left:3%;
+	padding-right:3%;
 	position: relative;
 	left: 0;
 	right: 0;
@@ -76,7 +80,7 @@ ul{
 }
 .main {
 	background-color: #DCDCDC;
-        font-family: Georgia;
+    font-family: Georgia;
 	width: 60%;
 	height: auto;
 	padding: 2%;
