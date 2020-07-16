@@ -4,6 +4,9 @@ body{
 ul{
 	font-size: 18px;
 }
+.link {
+     display: block; 
+    }
 .a1{
 	color: white;
 	text-decoration: none;
@@ -48,18 +51,20 @@ ul{
    }
 
 .hhd {
+	color: white;
 	border: 1px solid white;
 	width:150px;
 	height: 40px;
 	border-radius: 10px;
-	vertical-align: middle;
 	padding: 1%;
+	cursor: pointer;
 }
 .hhd:hover{
 	background-color: #FFFFFF;
-	color: #000000;
+	color: black;
 	border-color: #000000;
 }
+
 .header{
 	color: white;
 	font-family: Georgia;
