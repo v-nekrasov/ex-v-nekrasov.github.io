@@ -32,6 +32,13 @@ ul{
 .a3:hover{
 	color: blue;
 }
+.a4{
+	color: #43CD80;
+}
+.a4:hover{
+	color: red;
+}
+
 .ft {
 	color: white;
 }
@@ -90,7 +97,6 @@ ul{
 	border: 1px solid white;
 }
 .main {
-	background-color: #DCDCDC;
     font-family: Georgia;
 	width: 60%;
 	height: auto;
@@ -101,6 +107,7 @@ ul{
 	margin-right: auto;
 	font-size: 18px;
 	position: relative;
+	background-color: #DCDCDC;
 }
 .footer{
 	font-family: Georgia;
