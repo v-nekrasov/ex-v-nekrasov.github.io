@@ -27,23 +27,22 @@ h2{
 	color: red;
 }
 .a3{
-	color: black;
+	text-decoration:none;
+	color: #00CC66;
+	
 }
 .a3:hover{
-	color: blue;
-}
-.a4{
-	color: #696969;
-}
-.a4:hover{
-	color: red;
+	text-decoration: underline;
+	background-color: #CCFFCC;
+	border-radius: 5px;
+	padding: 1px;
 }
 .a_sub{
 	font-size: 20px;
 	color: black;
 }
 .a_sub:hover{
-	color: red;
+	color: #00CC66;
 }
 .ft {
 	color: white;
@@ -113,7 +112,8 @@ h2{
 	margin-right: auto;
 	font-size: 18px;
 	position: relative;
-	background-color: #DCDCDC;
+	background-color:white;
+	border: 1px solid #D3D3D3;
 }
 .footer{
 	font-family: Georgia;
@@ -128,9 +128,10 @@ h2{
 	vertical-align: middle;
 	padding-right: 3%;
 }
-.pros{
-	border-left: solid green;
+.sub{
+	border-left: solid #00CC66;
 }
-.cons{
-	border-left: solid red;
+
+.sub li{
+	font-size: 20px;
 }
