@@ -7,6 +7,16 @@ ul{
 h2{
 	font-variant: small-caps;
 }
+a{
+	transition: .2s ease-in-out;
+}
+dt{
+	font-weight: bold;
+	margin-bottom: 1%;
+}
+dd{
+	margin-bottom: 1%;
+}
 .a1{
 	color: white;
 	text-decoration: none;
@@ -29,20 +39,56 @@ h2{
 .a3{
 	text-decoration:none;
 	color: #00CC66;
+	padding: 1px;
 	
 }
 .a3:hover{
-	text-decoration: underline;
-	background-color: #CCFFCC;
+	background-color: #99FFB3;
 	border-radius: 5px;
-	padding: 1px;
+	
 }
 .a_sub{
 	font-size: 20px;
 	color: black;
+	text-decoration:none;
+	padding-bottom:1px;
 }
 .a_sub:hover{
 	color: #00CC66;
+	border-bottom: 1px solid  #00CC66;
+}
+.a_pdf{
+	font-size: 20px;
+	color: black;
+	background:url(pdf-icon.png) no-repeat right;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+.a_pdf:hover{
+	color: #00CC66;
+}
+.a_page{
+	font-size: 20px;
+	color: black;
+	background:url(page.png) no-repeat right;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+.a_page:hover{
+	color: #00CC66;
+}
+.a_teach {
+	text-decoration: none;
+	padding:1px;
+	border-radius: 5px;
+	color:black;
+}
+.a_teach:hover {
+  background-color: #99FFB3;
 }
 .ft {
 	color: white;
@@ -76,6 +122,7 @@ h2{
 	border-radius: 10px;
 	padding: 1%;
 	cursor: pointer;
+	transition: .2s ease-in-out;
 }
 .hhd:hover{
 	background-color: #FFFFFF;
@@ -112,7 +159,7 @@ h2{
 	margin-right: auto;
 	font-size: 18px;
 	position: relative;
-	background-color:white;
+	background-color:#DCDCDC;
 	border: 1px solid #D3D3D3;
 }
 .footer{
@@ -130,8 +177,13 @@ h2{
 }
 .sub{
 	border-left: solid #00CC66;
+	color: black;
 }
-
 .sub li{
 	font-size: 20px;
+	margin-bottom: 1em;
+	transition: .2s ease-in-out;
+}
+.sub li:hover{
+	color: #00CC66;
 }
