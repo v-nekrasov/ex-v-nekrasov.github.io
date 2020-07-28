@@ -81,6 +81,18 @@ dd{
 .a_page:hover{
 	color: #00CC66;
 }
+.a_git{
+	font-size: 20px;
+	color: black;
+	background:url(github.png) no-repeat right;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+.a_git:hover{
+	color: #00CC66;
+}
 .a_teach {
 	text-decoration: none;
 	padding:1px;
