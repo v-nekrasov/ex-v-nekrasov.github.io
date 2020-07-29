@@ -116,14 +116,13 @@ dd{
     width:  100%; /* Ширина таблицы */
     border-spacing: 0; /* Расстояние между ячейками */
 	color: white;
-	padding:1%;
+	padding: 3px;
    }
  .footertable td {
     width: 50%;
    }
 .rightcol {  
     text-align: right; 
-	font-style: italic;
    }
 
 .hhd {
@@ -186,6 +185,7 @@ dd{
 	border-top: 1px solid white;
 	vertical-align: middle;
 	padding-right: 3%;
+	font-size: 14px;
 }
 .sub{
 	border-left: solid #00CC66;
