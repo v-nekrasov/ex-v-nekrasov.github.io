@@ -7,6 +7,10 @@ ul{
 h2{
 	font-variant: small-caps;
 }
+h4{
+	font-style:italic;
+	text-align: center;
+}
 a{
 	transition: .2s ease-in-out;
 }
@@ -39,7 +43,7 @@ dd{
 .a3{
 	text-decoration:none;
 	color: #00CC66;
-	padding: 1px;
+	padding: 2px;
 	
 }
 .a3:hover{
@@ -102,6 +106,25 @@ dd{
 .a_teach:hover {
   background-color: #99FFB3;
 }
+.a_teach_p {
+	text-decoration: none;
+	padding:3px;
+	border: 2px solid black;
+	border-radius: 5px;
+	color:black;
+	font-size: 20px;
+}
+.a_teach_p:hover {
+  background-color: #99FFB3;
+  border: 2px solid  #00CC66;
+}
+.t_cite{
+	font-style: italic;
+	border-left: 5px double #00CC66;
+	width: 40%;
+	display: inline-block;
+	padding: 3px;
+}
 .ft {
 	color: white;
 }
@@ -122,8 +145,9 @@ dd{
     width: 50%;
    }
 .rightcol {  
-    text-align: right; 
-   }
+    text-align: right;
+	font-style: italic;
+}
 
 .hhd {
 	color: white;
@@ -188,6 +212,7 @@ dd{
 .sub{
 	border-left: solid #00CC66;
 	color: black;
+	list-style-type: square;
 }
 .sub li{
 	font-size: 20px;
@@ -197,3 +222,4 @@ dd{
 .sub li:hover{
 	color: #00CC66;
 }
+
