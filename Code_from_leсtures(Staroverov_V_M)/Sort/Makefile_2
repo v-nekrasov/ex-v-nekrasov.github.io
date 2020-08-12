@@ -1,0 +1,17 @@
+mytask.exe:main.o bubble_sort.o merge_sort_NO_recursion.o merge_sort_recursion.o merge_sort_recursion_OMP.o
+	gcc main.o bubble_sort.o merge_sort_NO_recursion.o merge_sort_recursion.o merge_sort_recursion_OMP.o -o mytask
+
+main.o:main.c header.h
+	gcc -O3 -fopenmp main.c -o main.o	
+	
+bubble_sort.o:bubble_sort.c header.h
+	gcc -O3 -fopenmp bubble_sort.c -o bubble_sort.o
+	
+merge_sort_NO_recursion:merge_sort_NO_recursion.c header.h
+	gcc -O3 -fopenmp merge_sort_NO_recursion.c -o merge_sort_NO_recursion.o
+	
+merge_sort_recursion.o:merge_sort_recursion.c header.h
+	gcc -O3 -fopenmp merge_sort_recursion.c -o merge_sort_recursion.o
+	
+merge_sort_recursion_OMP.o:merge_sort_recursion_OMP.c header.h
+	gcc -O3 -fopenmp merge_sort_recursion_OMP.c -o merge_sort_recursion_OMP.o
