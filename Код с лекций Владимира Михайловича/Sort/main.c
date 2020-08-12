@@ -58,6 +58,15 @@ int main(void)
 	time(&t2);
 	printf("merge_sort_2: dt=%d\n",(int)(t2-t1));
 	//--
+	time(&t1);
+	memcpy(m,m0,n*sizeof(m[0]));
+	merge_sort_2_OMP(m, n, tmp);
+	for(i=0;i<n;i++)
+		if(m[i]!=msave[i])
+			printf("merge_sort_2_OMP: error i=%d\n",i);
+	time(&t2);
+	printf("merge_sort_2_OMP: dt=%d\n",(int)(t2-t1));
+	//--
 	printf("done\n");
 	free(msave); msave=NULL;
 	free(m); m=NULL;
