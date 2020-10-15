@@ -1,5 +1,11 @@
+html{
+    height: 100%;
+    margin: 0;
+   }
 body{
-	 background-image: url("background.png");
+	background-image: url("background.png");
+	height: 100%;
+    margin: 0;
 }
 ul{
 	font-size: 18px;
@@ -208,11 +214,12 @@ dd{
 	position: relative;
 	background-color:white;
 	border: 1px solid #D3D3D3;
+	min-height: 100%;
 }
 .footer{
+	height: auto;
 	font-family: Georgia;
 	background-color: #696969;
-	height: auto;
 	width: auto;       
 	border-top: 1px solid white;
 }
