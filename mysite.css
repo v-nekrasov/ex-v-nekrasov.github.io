@@ -213,13 +213,8 @@ dd{
 	font-family: Georgia;
 	background-color: #696969;
 	height: auto;
-	width: auto;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	position: relative;
+	width: auto;       
 	border-top: 1px solid white;
-	vertical-align: middle;
 }
 .sub{
 	border-left: solid #00CC66;
