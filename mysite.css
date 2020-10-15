@@ -216,7 +216,8 @@ dd{
 	border: 1px solid #D3D3D3;
 	min-height: 100%;
 }
-.footer{
+.footer{  
+	margin:5px;
 	height: auto;
 	font-family: Georgia;
 	background-color: #696969;
