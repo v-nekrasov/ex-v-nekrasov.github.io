@@ -185,7 +185,7 @@ dd{
 
 .header{
 	color: white;
-	font-family: Georgia;
+	font-family: Ubuntu;
 	font-size: 20px;
 	background-color: #696969;
 	width: auto;
@@ -204,7 +204,7 @@ dd{
 }
 .content{min-height:90%;}
 .main {
-    font-family: Georgia;
+    font-family: Ubuntu;
 	width: 60%;
 	height: auto;
 	padding: 2%;
@@ -221,7 +221,7 @@ dd{
   
 	margin:5px;
 	height: auto;
-	font-family: Georgia;
+	font-family: Ubuntu;
 	background-color: #696969;
 	width: auto;       
 	border-top: 1px solid white;
