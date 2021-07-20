@@ -22,16 +22,16 @@ dd{
 }
 
 .a_cv{
-	color: #00CC66;
+	color: #177245;
 	text-decoration: none;
 	text-align: left;
-	border: 1px solid #00CC66;
+	border: 1px solid #177245;
 	border-radius: 5px;
 	padding: 2%;
 } 
 .a_cv:hover{
 	color: black;
-	background-color:#00CC66;
+	background-color:#177245;
 	border: 1px solid black;
 }
 .a1{
