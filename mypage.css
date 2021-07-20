@@ -22,17 +22,16 @@ dd{
 }
 
 .a_cv{
-	color: #177245;
-	width: 50%;
+	color: #00CC66;
 	text-decoration: none;
 	text-align: left;
-	border: 1px solid #177245;
+	border: 1px solid #00CC66;
 	border-radius: 5px;
 	padding: 2%;
 } 
 .a_cv:hover{
 	color: black;
-	background-color:#177245;
+	background-color:#00CC66;
 	border: 1px solid black;
 }
 .a1{
@@ -211,7 +210,7 @@ dd{
 }
 .hhp {
 	color: black;
-	width: 500px;
+	width: 1000px;
 	height: auto;
 	padding: 1%;
 	cursor: pointer;
@@ -319,4 +318,5 @@ dd{
 .sub li:hover{
 	color: #00CC66;
 }
+
 
